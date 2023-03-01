@@ -1,0 +1,17 @@
+*{box-sizing: border-box;}
+section{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 5px;
+}
+div{
+    padding: 5px;
+    flex:0 0 calc(25% - 5px);
+    border: 1px solid black;
+}
+@media screen and (max-width:400px){
+    div{
+        flex:0 0 calc(50% - 5px);
+    }
+}
