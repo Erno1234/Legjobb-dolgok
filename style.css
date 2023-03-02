@@ -10,6 +10,16 @@ div{
     flex:0 0 calc(25% - 5px);
     border: 1px solid black;
 }
+tbody{
+    border: 1px inset black;
+}
+td{
+    border-bottom: 1px solid black;
+}
+tr:nth-child(even) {
+   
+    background-color: #D6EEEE;
+  }
 @media screen and (max-width:400px){
     div{
         flex:0 0 calc(50% - 5px);
